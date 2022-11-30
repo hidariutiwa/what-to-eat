@@ -1,8 +1,6 @@
 body {
     /* width: 100vh;
     height: 100vh; */
-    border-style: solid;
-    border-color: grey;
     margin: 0px;
 }
 
@@ -14,8 +12,12 @@ body {
 .back-button {
     text-align: center;
     cursor: pointer;
-    width: 200px;
-    height: 100px;
+    width: 90%;
+    height: 100%;
+    background-color: deepskyblue;
+    border-radius: 20px;
+    border-color: #E6E6E6;
+    border-style: solid;
 }
 
 #main-container {
