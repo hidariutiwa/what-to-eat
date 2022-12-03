@@ -20,6 +20,10 @@ body {
     border-style: solid;
 }
 
+.back-button:hover {
+    background-color: lightskyblue;
+}
+
 #main-container {
     width: 100%;
     height: 100%;
