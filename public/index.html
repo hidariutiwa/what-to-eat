@@ -7,10 +7,27 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div id="chat-ribbon">
-        <input type="text" id="chat-textbox" placeholder="例：あっさりがいい">
-        <a href="#" class="chat-button"><img src="./img/paperairplane_white.png" alt="" id="send-button"></a>
-        <a href="#" class="chat-button"><img src="./img/mike_white.png" alt="" id="mike-button"</a>
+    <div id="main-container">
+        <div id="chat-container" class="line-bc">
+            <table id="chat-table">
+                <tbody id="chat-table-body">
+                    <tr>
+                        <td>
+                            <div class="balloon6">
+                                <div class="faceicon"><img src="./img/chef.png" alt=""></div>
+                                <div class="says"><p>何食べたい？</p></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="chat-ribbon">
+            <input type="text" id="chat-textbox" placeholder="例：あっさりがいい">
+            <a href="#" class="chat-button" id="send-button"><img src="./img/paperairplane_white.png" alt="" id="send-img"></a>
+            <a href="#" class="chat-button" id="mike-button"><img src="./img/mike_white.png" alt="" id="mike-img"</a>
+        </div>
     </div>
+    <script src="./js/hoge.js"></script>
 </body>
 </html>
