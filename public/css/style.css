@@ -62,7 +62,7 @@ body {
     border-radius: 25px;
     width: 90%;
     height: 35px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #send-img {
@@ -91,7 +91,7 @@ body {
     max-width: 450px;
     margin: 15px auto;
     text-align: right;
-    font-size: 18px;
+    font-size: 16px;
     background: #7da4cd;
   
   }
@@ -158,7 +158,7 @@ body {
     max-width: 250px;
     border-radius: 12px;
     background: #30e852;
-    font-size: 15px;
+    font-size: 16px;
   }
   
   .mycomment p:after {
